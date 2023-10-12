@@ -1,0 +1,97 @@
+/* mobile */
+@media(min-width:320px){
+		.container{
+			width:95%;
+			margin:auto;
+		}
+		.head-manu{
+			display:block;
+		}
+		.head-nav{
+			display:none;
+		}
+		.banner-col{
+			width:100%;
+		}
+		.banner-col-1{
+			width:100%;
+			padding:15% 0 0 0;
+		}
+		.banner-row{
+			display:flex;
+			flex-wrap:wrap;
+		}
+		.head-icon{
+			padding-right:5px;
+		}
+		
+		
+}
+
+
+
+
+
+/* i-pad */
+@media(min-width:760px){
+	.container{
+			width:95%;
+			margin:auto;
+		}
+	.head-manu{
+			display:block;
+		}
+		.head-nav{
+			display:none;
+		}
+		.banner-col{
+			width:100%;
+			
+		}
+		.banner-col-1{
+			width:100%;
+			padding: 15% 0 0 0;
+		}
+		.banner-row{
+			display:flex;
+			flex-wrap:wrap;
+		}
+	.head-icon{
+			padding-right:50px
+		}
+}
+
+
+
+
+
+/* laptop */
+@media(min-width:960px){
+	.container{
+			width:95%;
+			margin:auto;
+		}
+	.head-manu{
+			display:none;
+		}
+		.head-nav{
+			display:block;
+		}
+		.banner-col{
+			width:40%;
+			
+		}
+		.banner-col-1{
+			width:60%;
+			padding: 0 10px 0 0;
+		}
+		.banner-row{
+			display:flex;
+			flex-wrap:nowrap;
+			
+		}
+		.head-icon{
+			padding-right:50px
+		}
+	
+}
